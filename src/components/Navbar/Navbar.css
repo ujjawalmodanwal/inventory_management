@@ -1,0 +1,54 @@
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 208, 77);
+    padding: 0.8vw 0vw 0.8vw 0vw;
+    width: 100%;
+}
+
+.navbar-search-field{
+    height: 1.8vw; width:15vw; 
+    background-color :rgb(255, 208, 77); 
+    border: 1px solid black; 
+    border-radius:2.5px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat;
+    background-size: 2vw;
+    background-position: 13.3vw 1px;
+    margin-left:2vw;
+}
+
+.navbar-user-details{
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10vw;
+    margin-right: 2vw;
+    left: 88.5vw;
+}
+
+.navbar-user-image{
+    height: 2vw;
+    width: 2vw;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.navbar-user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menuIcon{
+    height:2vw;
+    width:2vw;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+.navbar-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
