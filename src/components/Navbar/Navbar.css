@@ -52,3 +52,31 @@
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 880px){
+    .navbar-main{
+        height: 12vw;
+    }
+    .navbar-search-field{
+        height: 10vw;width:10vw;
+        margin-left: 34vw;
+        background-size: 10vw;
+        background-position: 1vw 1px;
+    }
+    .navbar-menuIcon{
+        height:8vw;
+        width:8vw;
+    }
+    .navbar-user-details{
+        height: 10vw;
+        width: 20vw;
+        left: 85vw;
+    }
+    .navbar-user-name{
+        visibility: hidden;
+    }
+    .navbar-user-image{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 2vw;
+    }
+}

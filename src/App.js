@@ -25,7 +25,7 @@ function App() {
         {getSideBar()}
         <div> 
           <Navbar toggleSidebar = {toggleSidebar} isOpen ={sidebar}/>
-          <Main isOpen={sidebar}/>
+          <Main isOpen={sidebar} toggleSidebar = {toggleSidebar}/>
         </div>
       </div>
     );

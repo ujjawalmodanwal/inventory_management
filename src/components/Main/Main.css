@@ -1,8 +1,70 @@
 .main-container{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     margin: 0vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     margin: 2vw;
-    height: 44vw;
+    min-height: 85vh;
+}
+.main-referesh-icon{
+    height: 4vw;
+    width:4vw;
+    margin-left:1vw;
+    cursor: pointer;
+}
+.main-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 2vw;
+}
+.main-add-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:8vw;
+    height:3vw ;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2vw;
+    cursor: pointer;
+    margin-left: 60vw;
+
+}
+
+.main-add-new{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media(max-width: 880px){
+    .main-header{
+        font-size: 8vw;
+        margin:5vw;
+    }
+    .main-referesh-icon{
+        height: 4vw;
+        width:4vw;
+        margin-left:1vw;
+        cursor: pointer;
+    }
+    .main-referesh-icon{
+        height: 8vw;
+        width: 8vw;
+    }
+    .main-add-button{
+        width: 15vw;
+        height:6vw;
+        font-size: 2.5vw;
+        margin-left: 40vw;
+    }
+    .main-add-new{
+        margin: 3vw 0 2vw 0;
+    }
 }

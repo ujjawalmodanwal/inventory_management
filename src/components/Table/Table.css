@@ -1,0 +1,124 @@
+.header-main-data{
+    display: flex;
+}
+
+.header-main{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-bottom: 2.5px solid black;
+}
+
+.header-cell-id{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    border-bottom:0.6px solid grey;
+
+}
+.header-cell-name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width:30vw;
+    border-bottom:0.6px solid grey;
+}
+.header-cell-quantity{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width:15vw;
+    border-bottom:0.6px solid grey;
+}
+.header-cell-unit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 15vw;
+    border-bottom:0.6px solid grey;
+}
+.header-cell-weight{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 15vw;
+    border-bottom:0.6px solid grey;
+}
+
+.header-cell-delete{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width:6vw;
+    cursor: pointer;
+    border-bottom:0.6px solid black;
+}
+
+.header-cell-edit{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width:6vw;
+    cursor: pointer;
+    border-bottom:0.6px solid black;
+}
+.header-cell-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width:10.4vw;
+}
+.row-action-icon{
+    width: 2vw;
+    height: 2vw;
+}
+
+@media(max-width: 880px){
+    .header-main{
+        font-size: 2.5vw;
+        margin: 0.5vw 0 0.5vw 0;
+    }
+    
+    .header-cell-id{
+        height: 10vw;
+    }
+    .header-cell-name{
+        height: 10vw;
+    }
+    .header-cell-quantity{
+        height: 10vw;
+    }
+    .header-cell-unit{
+        height: 10vw;
+    }
+    .header-cell-weight{
+        height: 10vw;
+    }
+    .header-cell-actions{
+        height: 10vw;
+        width: 20vw;
+    }
+    .header-cell-edit{
+        height: 10vw;
+        width: 10vw;
+    }
+    .header-cell-delete{
+        height: 10vw;
+        width: 10vw;
+    }
+    .row-action-icon{
+        height: 6vw;
+        width: 6vw;
+    }
+}
